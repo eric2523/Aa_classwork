@@ -3,14 +3,17 @@ class PolyTreeNode
 
     def initialize(value)
         @children = []
+        #set parent initially to nil for the root node 
         @parent = nil
         @value = value
     end
 
     def parent=(parent_node)
+        #remove self from exisiting parent node 
         parent.children.delete(self) if parent
-
+        #set new parent to parent_node
         @parent = parent_node
+        #shovel self (which was deleted from previous node) into new parent_node's children 
         parent_node.children << self if parent_node
         self
     end
