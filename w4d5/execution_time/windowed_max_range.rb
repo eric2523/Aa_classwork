@@ -66,6 +66,11 @@ end
 
 class StackQueue
     def initialize
-        
+        queue = MyQueue.new
     end
+
+    def size
+        @stack.size
+    end
+
 end
