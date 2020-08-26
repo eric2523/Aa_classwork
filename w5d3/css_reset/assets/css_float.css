@@ -1,0 +1,29 @@
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+header > img {
+    float: left;
+}
+
+.group:after {
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+input[type="submit"] {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+/* label > input {
+    padding: 10px;
+} */

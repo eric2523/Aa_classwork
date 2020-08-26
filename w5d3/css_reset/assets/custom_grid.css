@@ -1,0 +1,27 @@
+body * {
+    background-color: rgb(1,0,0,0.25)
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+aside {
+    width: 300px;
+    float: left;
+}
+
+section {
+    width: 700px;
+    float: left;
+}
+
+#reviews {
+    float: right;
+}
+
+footer {
+    float: left;
+    clear: both;
+}
