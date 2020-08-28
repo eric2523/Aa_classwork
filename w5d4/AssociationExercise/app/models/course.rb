@@ -10,7 +10,7 @@
 #  updated_at    :datetime         not null
 #
 class Course < ApplicationRecord
-    validates :name, :instructor_id, presence: true
+    validates :name, presence: true
 
     has_many :enrollments,
         primary_key: :id,

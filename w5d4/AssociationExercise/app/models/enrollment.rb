@@ -9,8 +9,6 @@
 #  updated_at :datetime         not null
 #
 class Enrollment < ApplicationRecord
-    validates :course_id, :student_id, presence: true
-
     belongs_to :course,
         primary_key: :id,
         foreign_key: :course_id,
