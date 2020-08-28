@@ -23,8 +23,12 @@ class Course < ApplicationRecord
         class_name: :Course,
         optional: true
 
-    has_many :students,
+    belongs_to :instructor_id,
+        primary_key: :id,
+        foreign_key: :instructor_id,
+        class_name: :User
+
+    has_many :enrolled_students,
         through: :enrollments,
         source: :user
-
 end
