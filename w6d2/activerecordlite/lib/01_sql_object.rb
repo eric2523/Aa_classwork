@@ -27,7 +27,6 @@ class SQLObject
 
       #setter
       define_method("#{column}=") do |value|
-        # debugger
         self.attributes[column] = value unless self.attributes[column]
       end
 
@@ -58,6 +57,12 @@ class SQLObject
 
   def initialize(params = {})
     # ...
+    
+      params.each do |attr_name,v|
+        col = attr_name.to_sym
+        raise "unknown attribute '#{attr_name}'" if !self.class.columns.include?(col)
+        self.send("#{col}=", v)
+      end
     
   end
 
