@@ -95,10 +95,24 @@ class SQLObject
 
   def attribute_values
     # ...
+    columns = self.class.columns
+    arr = columns.map {|col| self.attributes[col]}
+    arr
   end
 
   def insert
     # ...
+    columns = self.class.columns.drop(1)
+    col_names = columns.join(', ')
+    question_marks = Array.new(columns.length) {'?'}.join(', ')
+    values = self.attribute_values.drop(1)
+    
+    DBConnection.execute(<<-SQL, *values)
+      INSERT INTO
+        #{self.class.table_name} (#{col_names})
+      VALUES
+        (#{question_marks})
+    SQL
   end
 
   def update
