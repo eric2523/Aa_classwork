@@ -13,12 +13,14 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
+
 .nav-bar {
+    height: 35px;
     margin: 0 auto;
-    width: 900px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
-    height: 35px;
+    align-items: center;
 }
 
 .header-logo {
@@ -27,10 +29,10 @@ body {
 
 li {
     display: block;
-    align-items: center;
 }
 
 .header-logo, li {
+    height: 100%;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 18px;
@@ -45,9 +47,7 @@ li {
 
 a {
     color: white;
-    /* align-self: center; */
 }
-
 
 .nav-items > li:hover,
 .header-logo:hover {
