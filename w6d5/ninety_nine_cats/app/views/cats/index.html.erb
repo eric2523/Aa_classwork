@@ -1,5 +1,6 @@
 <% @cats.each do |cat| %>
     <ul>
+        <li><a href="<%= cat_url(cat) %>" method="GET">Click here to see me!</a></li>
         <li><%= cat.name %></li>
         <li><%= cat.birth_date %></li>
         <li><%= cat.color %></li>
