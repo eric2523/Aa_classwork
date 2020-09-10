@@ -1,4 +1,5 @@
 /* PHASE 2: Notifications */
+
 .badge {
     display: inline;
     background: #000;
@@ -6,9 +7,11 @@
     padding: 1px 6px;
 }
 
-
 .notifications {
-    display: block;
-    position: absolute;
-    top: 5%;
+    border: 1px solid yellow;
+    /* display: block; */
+    position: relative;
+    top: 50px;
+    right: 50px;
+    
 }

@@ -8,6 +8,7 @@ body {
 }
 
 .header {
+    border: solid 1px yellow;
     background: #f00;
     color: #fff;
     border-bottom: 1px solid #ccc;
@@ -15,16 +16,18 @@ body {
 
 
 .nav-bar {
+    border: solid 1px yellow;
     height: 35px;
     margin: 0 auto;
     width: 1000px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .header-logo {
-    font-weight: 700;
+    display: flex;
+    font-weight: 700; 
+    align-items: center;
 }
 
 li {
@@ -40,12 +43,17 @@ li {
     border-right: 1px solid #ccc;
 }
 
-.nav-items {
-    height: 100%;
+ul.nav-items{
     display: flex;
 }
 
+ul.nav-items li {
+    display: flex;
+    align-items: center;
+}
+
 a {
+    border: solid 1px yellow;
     color: white;
 }
 
