@@ -1,0 +1,46 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.left-column {
+    width: 33%;
+    background-color: pink;
+}
+
+.middle-column {
+    width: 33%;
+    background-color: blue;
+}
+
+.right-column {
+    width: 33%;
+    background-color: green;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.byline{
+    font-size: 10px;
+    color: grey;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.article_body{
+    font-size:18px;
+    margin: 10px;
+}
+
+.article_body > ul {
+    list-style: outside;
+    list-style-type: circle;
+
+}
