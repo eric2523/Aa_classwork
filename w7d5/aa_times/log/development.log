@@ -11331,3 +11331,20 @@ Completed 200 OK in 52ms (Views: 49.4ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/application.self-53e7a9cb9bfcc1b21b62dc274e52c6d1f8d91288b3ddcd8d253b5143f16806b6.css?body=1" for 127.0.0.1 at 2020-09-11 12:19:08 -0700
 Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-09-11 12:19:08 -0700
+Started GET "/assets/application.self-6fd93d56a8065dd95f9b74ffd6792fdb2753bfefdd17619f1132c6bb6743f6b4.css?body=1&livereload=1599857632446" for ::1 at 2020-09-11 13:53:52 -0700
+Started GET "/assets/application.self-6fd93d56a8065dd95f9b74ffd6792fdb2753bfefdd17619f1132c6bb6743f6b4.css?body=1&livereload=1599857632447" for ::1 at 2020-09-11 13:53:52 -0700
+Started GET "/" for ::1 at 2020-09-11 13:53:54 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (3.5ms)
+  Rendered shared/_masthead.html.erb (1.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 52ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4fc2d9d4dd4d98a3636ee6c50a4876ebf28ff6528b060d04b45366819f0615d1.css?body=1" for ::1 at 2020-09-11 13:53:54 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-09-11 13:53:54 -0700
