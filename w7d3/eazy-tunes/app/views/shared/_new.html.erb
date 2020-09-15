@@ -1,0 +1,20 @@
+<% if button_val == "Sign Up" %>
+    <%= form_for user, local: true do |f| %>
+        <%= f.label :username %>
+        <%= f.text_field :username, name: "user[username]" %>
+        <%= f.label :password %>
+        <%= f.password_field :password, name: "user[password]" %>
+        <%= f.submit value: button_val %>
+    <% end %>
+<% else %>
+    <%= form_with url: session_url, local: true do |f| %>
+        <%= f.label :username %>
+        <%= f.text_field :username, name: "user[username]" %>
+        <%= f.label :password %>
+        <%= f.password_field :password, name: "user[password]" %>
+        <%= f.submit value: button_val %>
+    <% end %>
+<% end %>
+
+
+

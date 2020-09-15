@@ -1,0 +1,6 @@
+<%= link_to 'New Album', "#" %>
+<%= link_to 'Edit Band', edit_band_url(band) %>
+<%= form_with model: @band, method: "delete", local: true do |f| %>
+    <%= f.submit value: "Destroy Band" %>
+<% end %>
+<%= link_to 'All bands', bands_url %>

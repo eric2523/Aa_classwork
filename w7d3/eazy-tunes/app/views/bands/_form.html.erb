@@ -1,0 +1,8 @@
+
+
+<%= form_with model: band, method: method do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name, name: "band[name]" %>
+    <%= f.submit value: "Submit" %>
+<% end %>
+
