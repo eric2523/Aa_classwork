@@ -90,4 +90,17 @@ Array.prototype.bubbleSort = function () {
 // let unsortedArr = [3, 1, 4, 8];
 // console.log(unsortedArr.bubbleSort());
 
+String.prototype.substrings = function () {
+    let substringArray = [];
+    for(let i = 0; i < this.length; i++) {
+        for (let j = i + 1; j <= this.length; j++) {
+            substringArray.push(this.slice(i, j));
+        }
+    }
+    return substringArray;
+}
+
+// let word = "cant";
+// console.log(word.substrings());
+
 
