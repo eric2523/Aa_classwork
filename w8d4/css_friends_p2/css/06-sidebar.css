@@ -1,0 +1,42 @@
+/* PHASE 6: Sidebar */
+.content-sidebar {
+    /* position: relative; */
+}
+
+.profile-picture {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: -120px;
+    border: 0.5px solid black;
+    border-radius: 5%;
+}
+
+.sidebar-name {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sidebar-items > p {
+    margin-bottom: 20px;
+}
+
+.sidebar-tabs li {
+    border-top: 1px solid grey;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+
+.sidebar-tabs:last-child {
+    border-bottom: 1px solid grey;
+}
+
+.sidebar-name {
+    margin-bottom: 20px;
+}
+
+.sidebar-tabs > a > li:hover {
+    background-color: lightgrey;
+}
+
