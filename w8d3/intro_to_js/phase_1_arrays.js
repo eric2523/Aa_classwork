@@ -113,11 +113,11 @@ Array.prototype.range = function(start, end) {
         return [this[start]];
     } else {
         let arr = [this[start]];
-        this.shift();
-        return arr.concat(this.range(start, end - 1));
+        let nextSequence = this.slice(1, this.length + 1)
+        return arr.concat(nextSequence.range(start, end - 1));
     }
 }
 
-// let test = [1,2,3];
-// console.log(test.range(0,2));
+let test = [1,2,3];
+console.log(test.range(0,2));
 
