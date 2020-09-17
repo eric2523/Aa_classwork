@@ -71,9 +71,23 @@ Array.prototype.myReduce = function (callback,initialValue) {
     }
 }
 
-let a = [1,2,3];
-a.myReduce(function(acc, el) {
-  return acc + el;
-},25);
+Array.prototype.bubbleSort = function () {
+    let sorted = false;
+    while (sorted === false) {
+        sorted = true;
+        for(let i = 0; i < this.length - 1; i++) {
+            if (this[i] > this[i + 1]) {
+                let temp = this[i];
+                this[i] = this[i + 1];
+                this[i + 1] = temp;
+                sorted = false;                
+            }
+        }
+    }
+    return this;
+}
+
+// let unsortedArr = [3, 1, 4, 8];
+// console.log(unsortedArr.bubbleSort());
 
 
