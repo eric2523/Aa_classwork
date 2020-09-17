@@ -100,7 +100,24 @@ String.prototype.substrings = function () {
     return substringArray;
 }
 
+//iterative
 // let word = "cant";
 // console.log(word.substrings());
+// Array.prototype.range = function(start, end) {
+//     return this.slice(start, end + 1);
+// }
 
+//recursive
+Array.prototype.range = function(start, end) {
+    if (start == end) {
+        return [this[start]];
+    } else {
+        let arr = [this[start]];
+        this.shift();
+        return arr.concat(this.range(start, end - 1));
+    }
+}
+
+// let test = [1,2,3];
+// console.log(test.range(0,2));
 
