@@ -125,7 +125,6 @@ describe("Board", function () {
 
   describe("#isOccupied", function () {
     it('should return true if there is a piece on a position', function () {
-      debugger
       assert.equal(testBoard.isOccupied([3, 3]), true)
       assert.equal(testBoard.isOccupied([3, 4]), true)
     })

@@ -134,6 +134,20 @@ Board.prototype.validMove = function (pos, color) {
  * Throws an error if the position represents an invalid move.
  */
 Board.prototype.placePiece = function (pos, color) {
+  if ( !this.validMove(pos, color) ) throw Error ("Invalid Move");
+  
+  let pieces = [];
+
+  for (let i = 0; i < Board.DIRS.length; i++) {
+    let nextPiece = this._positionsToFlip(pos, color, Board.DIRS[i]);
+    if (nextPiece.length) pieces = pieces.concat(nextPiece)
+  }
+  
+  pieces.forEach((pos) => {
+    this.getPiece(pos).flip();
+  })
+
+  this.grid[pos[0]][pos[1]] = new Piece(color);
 };
 
 /**
