@@ -10,17 +10,17 @@ function _makeGrid () {
   const startBlack1 = new Piece("black");
   const startBlack2 = new Piece("black");
 
-    const grid = 
-      [
-        [null, null, null, null, null, null, null, null],
-        [null, null, null, null, null, null, null, null],
-        [null, null, null, null, null, null, null, null],
-        [null, null, null, startWhite1, startBlack1, null, null, null],
-        [null, null, null, startBlack2, startWhite2, null, null, null],
-        [null, null, null, null, null, null, null, null],
-        [null, null, null, null, null, null, null, null],
-        [null, null, null, null, null, null, null, null]
-      ]; 
+  const grid = 
+    [
+      [null, null, null, null, null, null, null, null],
+      [null, null, null, null, null, null, null, null],
+      [null, null, null, null, null, null, null, null],
+      [null, null, null, startWhite1, startBlack1, null, null, null],
+      [null, null, null, startBlack2, startWhite2, null, null, null],
+      [null, null, null, null, null, null, null, null],
+      [null, null, null, null, null, null, null, null],
+      [null, null, null, null, null, null, null, null]
+    ]; 
       // debugger
   return grid;
 }
@@ -155,6 +155,16 @@ Board.prototype.placePiece = function (pos, color) {
  * the Board for a given color.
  */
 Board.prototype.validMoves = function (color) {
+  let allValidPos = [];
+
+  for (let i = 0; i < 8; i++) {
+    for (let j = 0; j < 8; j++) {
+      let pos = [i, j];
+
+      if (this.validMove(pos, color)) allValidPos.push(pos);
+    }
+  }
+  return allValidPos;
 };
 
 /**
