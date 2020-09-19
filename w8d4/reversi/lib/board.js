@@ -202,8 +202,8 @@ Board.prototype.print = function () {
       rowString +=
         (this.getPiece(pos) ? this.getPiece(pos).toString() : ".");
     }
-
     console.log(rowString);
+  }
 };
 
 
