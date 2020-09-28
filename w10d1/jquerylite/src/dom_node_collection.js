@@ -12,4 +12,6 @@ DOMNodeCollection.prototype.html = function(strArg){
     }
 }
 
-// module.exports = DOMNodeCollection
+DOMNodeCollection.prototype.empty = function(){
+    this.html("")
+}

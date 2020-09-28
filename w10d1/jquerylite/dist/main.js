@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"DOMNodeCollection\", function() { return DOMNodeCollection; });\nclass DOMNodeCollection {\n    constructor(HTMLEleArr){\n        this.HTMLArr = HTMLEleArr;\n    }\n}\n\nDOMNodeCollection.prototype.html = function(strArg){\n    if (strArg !== undefined) {\n        this.HTMLArr.forEach (node => node.innerHTML = strArg)\n    } else {\n        return this.HTMLArr[0].innerHTML;\n    }\n}\n\n// module.exports = DOMNodeCollection\n\n//# sourceURL=webpack:///./src/dom_node_collection.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"DOMNodeCollection\", function() { return DOMNodeCollection; });\nclass DOMNodeCollection {\n    constructor(HTMLEleArr){\n        this.HTMLArr = HTMLEleArr;\n    }\n}\n\nDOMNodeCollection.prototype.html = function(strArg){\n    if (strArg !== undefined) {\n        this.HTMLArr.forEach (node => node.innerHTML = strArg)\n    } else {\n        return this.HTMLArr[0].innerHTML;\n    }\n}\n\nDOMNodeCollection.prototype.empty = function(){\n    this.html(\"\")\n}\n\n//# sourceURL=webpack:///./src/dom_node_collection.js?");
 
 /***/ }),
 
