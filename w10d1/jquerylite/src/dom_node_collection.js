@@ -47,3 +47,12 @@ DOMNodeCollection.prototype.attr = function(attrName, attrVal){
         eles.forEach(el => el.setAttribute(attrName, attrVal))
     }
 }
+
+DOMNodeCollection.prototype.addClass = function(val) {
+    this.HTMLArr.forEach((el) => el.classList.add(val))
+}
+
+DOMNodeCollection.prototype.removeClass = function(className){
+    this.HTMLArr.forEach((el) => el.classList.remove(className))
+}
+
