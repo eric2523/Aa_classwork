@@ -16,23 +16,21 @@ DOMNodeCollection.prototype.empty = function(){
     this.html("")
 }
 
-//append
-// can accept DOMNodeCollection, HTMLEle, or string
 DOMNodeCollection.prototype.append = function(ele) {
-    //if given domnodecollection, append all eles in args to outer els 
-    if (ele instanceof DOMNodeCollection) {
-        let that = this;
+    this.HTMLArr.forEach((outerNode) => {
+      let outerText = outerNode.innerHTML;
+
+      if (ele instanceof DOMNodeCollection) {
         ele.HTMLArr.forEach((node) => {
-            that.HTMLArr.forEach((outerNode) => {
-                let outerNodeInnerText = outerNode.innerHTML
-                let nodeHTMLText = node.outerHTML
-                outerNode.innerHTML = outerNodeInnerText.concat(nodeHTMLText)
-            })  
-
-        })
-    }
-
-    
-
-
+          let innerText = node.outerHTML;
+          outerText = outerText.concat(innerText);
+          outerNode.innerHTML = outerText;
+        });
+      } else {
+        (ele instanceof HTMLElement) ? 
+            outerText = outerText.concat(ele.outerHTML) : 
+            outerText = outerText.concat(ele)
+        outerNode.innerHTML = outerText;
+      }
+    });  
 }
