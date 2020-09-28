@@ -42,5 +42,8 @@ DOMNodeCollection.prototype.attr = function(attrName, attrVal){
             let name = el.getAttribute(attrName);   
             if (name !== null) return name;
         }
+    } else {
+        let eles = this.HTMLArr.filter(el => el.getAttribute(attrName))
+        eles.forEach(el => el.setAttribute(attrName, attrVal))
     }
 }
