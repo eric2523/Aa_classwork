@@ -58,8 +58,9 @@ DOMNodeCollection.prototype.removeClass = function(className){
 
 DOMNodeCollection.prototype.children = function() {
     let allChildren = [];
-    this.HTMLArr.forEach((el) => allChildren.push(el.children))
-    return new DOMNodeCollection(allChildren[0])
+    this.HTMLArr.forEach((el) => allChildren = allChildren.concat(Array.from(el.children)))
+    // let combined = allChildren.forEach
+    return new DOMNodeCollection(allChildren)
 }
 
 DOMNodeCollection.prototype.parent = function() {
@@ -71,11 +72,18 @@ DOMNodeCollection.prototype.parent = function() {
 DOMNodeCollection.prototype.find = function(selector) {
     let nodes = [];
     this.HTMLArr.forEach(el => {
-        nodes.push(el.querySelectorAll(selector))
+        nodes = nodes.concat(Array.from(el.querySelectorAll(selector)))
     })
-    return new DOMNodeCollection(nodes[0])
+    return new DOMNodeCollection(nodes)
 }
 
 DOMNodeCollection.prototype.remove = function(){
     this.HTMLArr.forEach(el => el.remove())
+}
+
+DOMNodeCollection.prototype.on = function(event, cb) {
+    this.HTMLArr.forEach((el) => {
+        el.callback = cb;
+        el.addEventListener(event, el.callback)
+    })
 }
