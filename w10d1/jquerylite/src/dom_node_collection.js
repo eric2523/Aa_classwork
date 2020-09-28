@@ -87,3 +87,9 @@ DOMNodeCollection.prototype.on = function(event, cb) {
         el.addEventListener(event, el.callback)
     })
 }
+
+DOMNodeCollection.prototype.off = function(event) {
+    this.HTMLArr.forEach((el) => {
+        el.removeEventListener(event, el.callback)
+    })
+}
