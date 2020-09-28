@@ -56,3 +56,14 @@ DOMNodeCollection.prototype.removeClass = function(className){
     this.HTMLArr.forEach((el) => el.classList.remove(className))
 }
 
+DOMNodeCollection.prototype.children = function() {
+    let allChildren = [];
+    this.HTMLArr.forEach((el) => allChildren.push(el.children))
+    return new DOMNodeCollection(allChildren)
+}
+
+DOMNodeCollection.prototype.parent = function() {
+    let allparents = [];
+    this.HTMLArr.forEach((el) => allparents.push(el.parentNode))
+    return new DOMNodeCollection(allparents)
+}
