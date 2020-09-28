@@ -34,3 +34,13 @@ DOMNodeCollection.prototype.append = function(ele) {
       }
     });  
 }
+
+DOMNodeCollection.prototype.attr = function(attrName, attrVal){
+    if (attrVal === undefined){
+        for (let i = 0; i < this.HTMLArr.length; i++) {
+            let el = this.HTMLArr[i]
+            let name = el.getAttribute(attrName);   
+            if (name !== null) return name;
+        }
+    }
+}
