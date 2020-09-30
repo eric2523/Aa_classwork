@@ -5,29 +5,40 @@ class Tabs extends React.Component {
       super(props);
       this.info = props.info;
       this.state = {currentTab: 0};
-      this.changeTab = this.changeTab.bind(this)
+      this.isTabOpen = this.isTabOpen.bind(this)
   }   
 
   changeTab(e) {
-    let li = e.target;
-    const currentTab = li.id;
+    let currentTab = parseInt(e.target.attributes.idx.value)
     this.setState({ currentTab });
   }
 
+  isTabOpen(idx){
+    return this.state.currentTab === idx
+  }
+
   generateTabLabels() {
+    // const isTabOpen = this.isTabOpen
+    let that = this;
+
     return this.info.map((label, idx) => {
-      return (
-        <li key={idx} id={idx}>
-          {label.title}
-        </li>
-      );
+      let li = <li key={idx} idx={idx}>{label.title}</li>
+      if (that.isTabOpen(idx)){
+        li = (
+          <li key={idx} idx={idx} className="border-bottom">
+            {label.title}
+          </li>
+        );
+      } 
+
+      return (li);
     });
   }
 
   render() {
     return (
     <div className="tabs">
-      <ul onClick={ this.changeTab }>
+      <ul onClick={ (e) => this.changeTab(e) }>
           { this.generateTabLabels() }
       </ul>
 
