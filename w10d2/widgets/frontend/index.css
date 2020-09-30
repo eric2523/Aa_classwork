@@ -1,0 +1,52 @@
+.date {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 30px;
+  color: white;
+  width: 400px;
+  height: 100px;
+  flex-direction: column;
+  background-image: url("https://1.bp.blogspot.com/-dGgUcemhCSc/XWs85BdH_eI/AAAAAAAAYpo/XVf8KQrUn-8Xj7jd-hMyy-yX4hxp2D8vACLcBGAs/s2560/future-view-from-height-m2-2560x1440.jpg");
+  background-size: 50%;
+  margin: 20px;
+}
+
+#main, .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    border-top-left-radius: 5px;
+    color: white;
+    border-top-right-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: blueviolet;
+}
+
+ul li:hover {
+    cursor: pointer;
+    background: black;
+}
+
+article {
+  display: flex;
+  background-color: blueviolet;
+  height: 100px;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.tabs, ul li {
+    width: 120px;
+}
+
+.border-bottom {
+    border-bottom: none;
+}
