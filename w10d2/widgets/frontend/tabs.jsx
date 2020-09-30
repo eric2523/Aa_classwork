@@ -14,23 +14,25 @@ class Tabs extends React.Component {
     this.setState({ currentTab });
   }
 
+  generateTabLabels() {
+    return this.info.map((label, idx) => {
+      return (
+        <li key={idx} id={idx}>
+          {label.title}
+        </li>
+      );
+    });
+  }
+
   render() {
     return (
     <div className="tabs">
       <ul onClick={ this.changeTab }>
-          {
-            this.info.map((label, idx)=> {
-              return (
-                <li key={idx} id={idx}>
-                  {label.title}
-                </li>
-              );
-            })
-          }
+          { this.generateTabLabels() }
       </ul>
 
       <article>
-        {this.info[this.state.currentTab].content}
+        { this.info[this.state.currentTab].content }
       </article>
     </div>
     )
