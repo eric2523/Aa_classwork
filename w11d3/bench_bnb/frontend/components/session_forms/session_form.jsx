@@ -18,7 +18,6 @@ class SessionForm extends React.Component {
   }
 
   componentDidMount (){
-    debugger
     this.props.clearErrors();
   }
 
@@ -126,8 +125,6 @@ class SessionForm extends React.Component {
       linkName = "Log In";
     }
     
-    // let errors = this.state.errors
-    // this.setState({ errors }) 
     let form = this.generateForm()
 
     return (
