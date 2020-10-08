@@ -17,6 +17,11 @@ class SessionForm extends React.Component {
     this.generateForm = this.generateForm.bind(this)
   }
 
+  componentDidMount (){
+    debugger
+    this.props.clearErrors();
+  }
+
   handleSubmit(e) {
     e.preventDefault();
     const user = Object.assign({}, this.state)
@@ -121,14 +126,17 @@ class SessionForm extends React.Component {
       linkName = "Log In";
     }
     
-    let errors = this.props.errors.session.join(", ")
+    // let errors = this.state.errors
+    // this.setState({ errors }) 
     let form = this.generateForm()
 
     return (
       <>
-        <Link to={ linkPath }>{ linkName }</Link>
+        <Link to={linkPath}>
+          { linkName }
+        </Link>
         { heading }
-        { errors } 
+        { this.props.errors.session.join(", ") } 
         { form }
       </>
     )
