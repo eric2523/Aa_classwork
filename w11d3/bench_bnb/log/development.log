@@ -5673,3 +5673,441 @@ Processing by Api::BenchesController#index as JSON
 Completed 200 OK in 23ms (Views: 14.1ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/" for ::1 at 2020-10-08 16:28:58 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 578ms (Views: 577.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 16:28:59 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (7.4ms)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 16:30:43 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.4ms)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:46:40 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 508ms (Views: 507.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:47:34 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 598ms (Views: 595.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 16:47:35 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (61.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (63.8ms)
+Completed 200 OK in 137ms (Views: 64.0ms | ActiveRecord: 61.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:50:04 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 221ms (Views: 221.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 16:50:05 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (118.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (120.9ms)
+Completed 200 OK in 143ms (Views: 17.8ms | ActiveRecord: 118.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:50:09 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 16:50:09 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.9ms)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:56:28 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 16:56:28 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (5.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (7.4ms)
+Completed 200 OK in 28ms (Views: 17.1ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:57:52 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 16:57:52 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (50.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (60.4ms)
+Completed 200 OK in 76ms (Views: 22.3ms | ActiveRecord: 50.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:58:04 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/eze/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 1383ms (Views: 1379.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 16:58:05 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (9.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (66.9ms)
+Completed 200 OK in 87ms (Views: 25.1ms | ActiveRecord: 55.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:01:10 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:01:10 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (3.0ms)
+Completed 200 OK in 20ms (Views: 14.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:01:11 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:01:12 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (79.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (80.9ms)
+Completed 200 OK in 96ms (Views: 10.1ms | ActiveRecord: 79.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:01:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:01:13 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (3.1ms)
+Completed 200 OK in 17ms (Views: 11.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:01:28 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:01:29 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (34.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (36.6ms)
+Completed 200 OK in 51ms (Views: 13.1ms | ActiveRecord: 34.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:01:29 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (31.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 65ms (Views: 33.4ms | ActiveRecord: 31.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:01:30 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.6ms)
+Completed 200 OK in 30ms (Views: 26.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:01:31 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (46.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (53.9ms)
+Completed 200 OK in 110ms (Views: 63.8ms | ActiveRecord: 46.1ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:01:31 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (26.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (29.7ms)
+Completed 200 OK in 45ms (Views: 16.3ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:02:40 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/eze/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 1122ms (Views: 1118.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:02:41 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (5.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (61.3ms)
+Completed 200 OK in 107ms (Views: 51.7ms | ActiveRecord: 38.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:04:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:04:21 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.6ms)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:04:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (8.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 51ms (Views: 41.8ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:04:22 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (121.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (123.4ms)
+Completed 200 OK in 135ms (Views: 10.8ms | ActiveRecord: 121.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:04:23 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 39ms (Views: 36.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:04:23 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (5.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (6.7ms)
+Completed 200 OK in 39ms (Views: 29.7ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:04:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:04:24 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (46.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (50.1ms)
+Completed 200 OK in 65ms (Views: 14.9ms | ActiveRecord: 46.9ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:04:58 -0700
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/eze/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1166ms (Views: 1163.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:04:59 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (32.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (53.1ms)
+Completed 200 OK in 74ms (Views: 20.6ms | ActiveRecord: 45.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:09:08 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:09:09 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.7ms)
+Completed 200 OK in 23ms (Views: 18.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:09:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 380ms (Views: 380.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:09:13 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (93.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (94.5ms)
+Completed 200 OK in 110ms (Views: 11.6ms | ActiveRecord: 93.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:09:20 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:09:20 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (8.1ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (10.7ms)
+Completed 200 OK in 28ms (Views: 16.2ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 17:09:43 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 449ms (Views: 448.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-08 17:09:43 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (2.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (4.4ms)
+Completed 200 OK in 26ms (Views: 16.9ms | ActiveRecord: 2.5ms)
+
+
