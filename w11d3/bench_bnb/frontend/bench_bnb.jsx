@@ -7,7 +7,7 @@ import Root from './components/root'
 // import * as APIUtil from './util/session_api_util'
 // import {signup, login} from './actions/session_actions'
 // import { fetchBenches } from './util/bench_api_util'
-import { fetchBenches } from './actions/bench_actions'
+// import { fetchBenches } from './actions/bench_actions'
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("root");
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //window testing
   window.getState = store.getState;
   window.dispatch = store.dispatch;
-  window.fetchBenches = fetchBenches
+  // window.fetchBenches = fetchBenches
   // window.signup = signup
   // window.login = login
   // window.logout = APIUtil.logout

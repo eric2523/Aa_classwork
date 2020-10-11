@@ -6111,3 +6111,1819 @@ Processing by Api::BenchesController#index as JSON
 Completed 200 OK in 26ms (Views: 16.9ms | ActiveRecord: 2.5ms)
 
 
+Started GET "/" for ::1 at 2020-10-09 09:05:29 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/eze/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 1621ms (Views: 1617.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:05:32 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (3.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (170.5ms)
+Completed 200 OK in 188ms (Views: 22.3ms | ActiveRecord: 160.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:12:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 335ms (Views: 333.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:12:22 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (115.1ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (116.7ms)
+Completed 200 OK in 133ms (Views: 15.2ms | ActiveRecord: 115.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:12:47 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:12:48 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.4ms)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:12:51 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 332ms (Views: 331.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:12:52 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (12.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (14.2ms)
+Completed 200 OK in 30ms (Views: 14.0ms | ActiveRecord: 12.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:13:17 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.5ms)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:24:52 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 329ms (Views: 328.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:24:52 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (2.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (3.8ms)
+Completed 200 OK in 17ms (Views: 11.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:24:55 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:24:55 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (3.0ms)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:25:23 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:25:23 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.0ms)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:25:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 359ms (Views: 358.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:25:26 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (5.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (7.1ms)
+Completed 200 OK in 21ms (Views: 12.2ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:28:08 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 360ms (Views: 358.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:28:09 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.5ms)
+Completed 200 OK in 18ms (Views: 13.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:28:47 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 386ms (Views: 385.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:28:47 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (3.2ms)
+Completed 200 OK in 14ms (Views: 9.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:28:50 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:28:50 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.9ms)
+Completed 200 OK in 16ms (Views: 10.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:29:06 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 361ms (Views: 360.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:29:07 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (4.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (6.0ms)
+Completed 200 OK in 17ms (Views: 9.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:29:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 410ms (Views: 409.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:29:42 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (72.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (73.8ms)
+Completed 200 OK in 121ms (Views: 36.5ms | ActiveRecord: 72.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:29:44 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 209ms (Views: 208.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:29:45 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (4.3ms)
+Completed 200 OK in 19ms (Views: 15.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:30:02 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 323ms (Views: 322.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:30:03 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (35.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (37.7ms)
+Completed 200 OK in 49ms (Views: 10.7ms | ActiveRecord: 35.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:30:23 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 358ms (Views: 357.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 09:30:24 -0700
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (5.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (7.7ms)
+Completed 200 OK in 21ms (Views: 12.7ms | ActiveRecord: 5.6ms)
+
+
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2[0m  [["lat", 37.0], ["lat", 38.0]]
+  [1m[36mBench Load (0.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2[0m  [["lat", 34.0], ["lat", 35.0]]
+Started GET "/" for ::1 at 2020-10-09 10:05:29 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 342ms (Views: 336.9ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 10:05:30 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ')', expecting =>
+...(lat: latBound[0], latBound[1])
+...                              ^
+/Users/eze/Desktop/Aa_classwork/w11d3/bench_bnb/app/models/bench.rb:20: syntax error, unexpected ')', expecting =>
+...(lng: lngBound[0], lngBound[1])
+...                              ^:
+  app/models/bench.rb:19:in `'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 10:06:57 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 430ms (Views: 429.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 10:06:58 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ')', expecting =>
+...(lat: latBound[0], latBound[1])
+...                              ^
+/Users/eze/Desktop/Aa_classwork/w11d3/bench_bnb/app/models/bench.rb:20: syntax error, unexpected ')', expecting =>
+...(lng: lngBound[0], lngBound[1])
+...                              ^:
+  app/models/bench.rb:19:in `'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 10:06:59 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 10:06:59 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ')', expecting =>
+...(lat: latBound[0], latBound[1])
+...                              ^
+/Users/eze/Desktop/Aa_classwork/w11d3/bench_bnb/app/models/bench.rb:20: syntax error, unexpected ')', expecting =>
+...(lng: lngBound[0], lngBound[1])
+...                              ^:
+  app/models/bench.rb:19:in `'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 10:07:36 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 32ms (Views: 26.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 10:07:36 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ')', expecting =>
+...(lat: latBound[0], latBound[1])
+...                              ^
+/Users/eze/Desktop/Aa_classwork/w11d3/bench_bnb/app/models/bench.rb:21: syntax error, unexpected ')', expecting =>
+...(lng: lngBound[0], lngBound[1])
+...                              ^:
+  app/models/bench.rb:20:in `'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 10:08:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 38ms (Views: 33.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 10:08:21 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 8701ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 10:10:08 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 347ms (Views: 346.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80971&bounds%5BnorthEast%5D%5Blng%5D=-122.39208&bounds%5BsouthWest%5D%5Blat%5D=37.74187&bounds%5BsouthWest%5D%5Blng%5D=-122.47791" for ::1 at 2020-10-09 10:10:09 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80971", "lng"=>"-122.39208"}, "southWest"=>{"lat"=>"37.74187", "lng"=>"-122.47791"}}}
+Completed 500 Internal Server Error in 30240ms (ActiveRecord: 0.0ms)
+
+
+
+ArgumentError - bad value for range:
+  app/models/bench.rb:20:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 10:11:19 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80971&bounds%5BnorthEast%5D%5Blng%5D=-122.39208&bounds%5BsouthWest%5D%5Blat%5D=37.74187&bounds%5BsouthWest%5D%5Blng%5D=-122.47791" for ::1 at 2020-10-09 10:11:20 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80971", "lng"=>"-122.39208"}, "southWest"=>{"lat"=>"37.74187", "lng"=>"-122.47791"}}}
+Completed 500 Internal Server Error in 20668ms (ActiveRecord: 0.0ms)
+
+
+
+ArgumentError - bad value for range:
+  app/models/bench.rb:21:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 10:11:46 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80971&bounds%5BnorthEast%5D%5Blng%5D=-122.39208&bounds%5BsouthWest%5D%5Blat%5D=37.74187&bounds%5BsouthWest%5D%5Blng%5D=-122.47791" for ::1 at 2020-10-09 10:11:47 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80971", "lng"=>"-122.39208"}, "southWest"=>{"lat"=>"37.74187", "lng"=>"-122.47791"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.0], ["lat", 37.0], ["lng", -122.0], ["lng", -122.0]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.6ms)
+Completed 200 OK in 171ms (Views: 15.2ms | ActiveRecord: 146.9ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:14:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 339ms (Views: 336.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:14:33 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (6.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (30.8ms)
+Completed 200 OK in 106ms (Views: 21.0ms | ActiveRecord: 77.5ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:29:23 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 340ms (Views: 339.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:32:52 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (94.7ms)
+Completed 200 OK in 115ms (Views: 108.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:34:56 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:35:01 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (48.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (49.9ms)
+Completed 200 OK in 78ms (Views: 26.0ms | ActiveRecord: 48.6ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:38:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:39:15 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.6ms)
+Completed 200 OK in 20ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:42:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 405ms (Views: 404.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:42:07 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (4.1ms)
+Completed 200 OK in 20ms (Views: 14.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:42:09 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:42:10 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.4ms)
+Completed 200 OK in 25ms (Views: 19.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:42:54 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 487ms (Views: 486.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:42:55 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.9ms)
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:43:27 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 34ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:43:28 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (5.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (8.0ms)
+Completed 200 OK in 27ms (Views: 17.8ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:45:50 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 429ms (Views: 427.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:45:51 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (3.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (7.4ms)
+Completed 200 OK in 32ms (Views: 21.6ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:47:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 580ms (Views: 579.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:47:22 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (73.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (75.7ms)
+Completed 200 OK in 97ms (Views: 16.0ms | ActiveRecord: 73.6ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 10:49:53 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 417ms (Views: 417.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 10:49:54 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (155.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (157.0ms)
+Completed 200 OK in 170ms (Views: 11.5ms | ActiveRecord: 155.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:03:54 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 412ms (Views: 411.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:03:55 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (94.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (152.1ms)
+Completed 200 OK in 175ms (Views: 75.7ms | ActiveRecord: 94.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:04:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:04:04 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (80.9ms)
+Completed 200 OK in 96ms (Views: 14.8ms | ActiveRecord: 77.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:04:06 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:04:07 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.5ms)
+Completed 200 OK in 18ms (Views: 13.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:07:04 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 399ms (Views: 398.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:07:04 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:07:08 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 32ms (Views: 31.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:07:09 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:07:47 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 522ms (Views: 521.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:07:48 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:07:56 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:07:56 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:09:51 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 719ms (Views: 718.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:09:52 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:12:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 472ms (Views: 470.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:12:29 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:12:45 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:14:58 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:15:02 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 469ms (Views: 469.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:15:16 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:15:26 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:15:37 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:15:49 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:15:54 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:21:16 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 521ms (Views: 520.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:21:17 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:21:18 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:21:19 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:22:10 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:22:11 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:22:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 423ms (Views: 422.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:22:13 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:22:38 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:22:38 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:22:59 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 33.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:23:00 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 3366ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:23:42 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 48ms (Views: 40.0ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:23:42 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 17169ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:25:08 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:25:09 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 3294ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:25:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 543ms (Views: 539.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:25:23 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:25:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:25:41 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:26:33 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:26:34 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:26:36 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 419ms (Views: 419.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for ::1 at 2020-10-09 11:26:36 -0700
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 11:30:11 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 484ms (Views: 483.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:30:12 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (2.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (27.2ms)
+Completed 200 OK in 184ms (Views: 20.7ms | ActiveRecord: 157.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:32:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:32:03 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (111.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (114.2ms)
+Completed 200 OK in 149ms (Views: 34.2ms | ActiveRecord: 111.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:42:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 791ms (Views: 787.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:42:42 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (2.1ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (15.1ms)
+Completed 200 OK in 36ms (Views: 30.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:42:44 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:42:45 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (6.6ms)
+Completed 200 OK in 26ms (Views: 21.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:42:56 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:42:56 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.3ms)
+Completed 200 OK in 17ms (Views: 12.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:43:04 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:43:04 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (37.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (39.0ms)
+Completed 200 OK in 61ms (Views: 18.0ms | ActiveRecord: 37.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:43:06 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 384ms (Views: 383.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:43:07 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (62.1ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (63.9ms)
+Completed 200 OK in 85ms (Views: 18.1ms | ActiveRecord: 62.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:43:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:43:17 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (107.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (109.5ms)
+Completed 200 OK in 134ms (Views: 20.7ms | ActiveRecord: 107.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:43:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:43:23 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (4.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (9.3ms)
+Completed 200 OK in 28ms (Views: 15.5ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:44:14 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:44:14 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (6.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (8.3ms)
+Completed 200 OK in 30ms (Views: 18.8ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:44:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 378ms (Views: 377.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:44:18 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (20.7ms)
+Completed 200 OK in 65ms (Views: 57.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:44:29 -0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/eze/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 1957ms (Views: 1953.0ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:44:31 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (11.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (161.6ms)
+Completed 200 OK in 296ms (Views: 28.8ms | ActiveRecord: 165.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:45:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:45:26 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (8.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (11.6ms)
+Completed 200 OK in 27ms (Views: 14.0ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:46:14 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 751ms (Views: 746.5ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:46:16 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (34.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (155.0ms)
+Completed 200 OK in 183ms (Views: 137.0ms | ActiveRecord: 34.9ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:46:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:46:25 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (3.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (4.5ms)
+Completed 200 OK in 22ms (Views: 12.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:53:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 451ms (Views: 450.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:53:23 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (12.1ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (31.5ms)
+Completed 200 OK in 64ms (Views: 45.1ms | ActiveRecord: 12.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 11:53:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 663ms (Views: 659.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.776223&bounds%5BnorthEast%5D%5Blng%5D=-122.432599&bounds%5BsouthWest%5D%5Blat%5D=37.776223&bounds%5BsouthWest%5D%5Blng%5D=-122.432599" for ::1 at 2020-10-09 11:53:33 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}, "southWest"=>{"lat"=>"37.776223", "lng"=>"-122.432599"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (65.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.776223], ["lat", 37.776223], ["lng", -122.432599], ["lng", -122.432599]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (90.9ms)
+Completed 200 OK in 126ms (Views: 52.6ms | ActiveRecord: 65.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:09:50 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 905ms (Views: 904.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:15:52 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 383ms (Views: 381.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:16:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32ms (Views: 31.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:16:28 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 404ms (Views: 400.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/benches?bounds%5Bfilters%5D%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5Bfilters%5D%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5Bfilters%5D%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5Bfilters%5D%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 12:16:29 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"filters"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 12:16:31 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5Bfilters%5D%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5Bfilters%5D%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5Bfilters%5D%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5Bfilters%5D%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 12:16:33 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"filters"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:17:in `in_bounds'
+  app/controllers/api/benches_controller.rb:3:in `index'
+
+Started GET "/" for ::1 at 2020-10-09 12:17:40 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 388ms (Views: 387.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 12:17:41 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (4.8ms)
+Completed 200 OK in 21ms (Views: 13.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:17:45 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 12:17:49 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.2ms)
+Completed 200 OK in 22ms (Views: 14.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:18:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 43ms (Views: 37.1ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 12:18:23 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.2ms)
+Completed 200 OK in 13581ms (Views: 14.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:18:57 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 563ms (Views: 561.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:19:00 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:19:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:19:11 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (19.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 462ms (Views: 441.9ms | ActiveRecord: 19.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 12:21:30 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (29.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (32.0ms)
+Completed 200 OK in 134ms (Views: 90.3ms | ActiveRecord: 32.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:21:33 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 542ms (Views: 538.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 12:21:55 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.4ms)
+Completed 200 OK in 17ms (Views: 9.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:22:09 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 394ms (Views: 394.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 12:22:34 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (9.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (11.3ms)
+Completed 200 OK in 37ms (Views: 22.9ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 12:22:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 382ms (Views: 381.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 13:32:45 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (3.0ms)
+Completed 200 OK in 21ms (Views: 13.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 15:21:59 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 15:22:11 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (2.4ms)
+Completed 200 OK in 23ms (Views: 16.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 15:23:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 15:23:18 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (31.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (32.4ms)
+Completed 200 OK in 51ms (Views: 12.9ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 15:23:57 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 378ms (Views: 377.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 15:23:58 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (1.3ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 15:24:55 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 15:24:56 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (4.2ms)
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 15:25:00 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "KaJP6nOXMrmoRChAy50gSw"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendered static_pages/root.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 39ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.3920846557617&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423827" for ::1 at 2020-10-09 15:25:03 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.3920846557617"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423827"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (5.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.809713098290686], ["lat", 37.74187133792972], ["lng", -122.3920846557617], ["lng", -122.47791534423827]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (7.4ms)
+Completed 200 OK in 32ms (Views: 21.6ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80347425682481&bounds%5BnorthEast%5D%5Blng%5D=-122.40066772460936&bounds%5BsouthWest%5D%5Blat%5D=37.73562676915451&bounds%5BsouthWest%5D%5Blng%5D=-122.48649841308593" for ::1 at 2020-10-09 15:25:09 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80347425682481", "lng"=>"-122.40066772460936"}, "southWest"=>{"lat"=>"37.73562676915451", "lng"=>"-122.48649841308593"}}}
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (61.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches" WHERE "benches"."lat" BETWEEN $1 AND $2 AND "benches"."lng" BETWEEN $3 AND $4[0m  [["lat", 37.80347425682481], ["lat", 37.73562676915451], ["lng", -122.40066772460936], ["lng", -122.48649841308593]]
+  ↳ app/views/api/benches/index.json.jbuilder:1
+  Rendered api/benches/index.json.jbuilder (63.2ms)
+Completed 200 OK in 80ms (Views: 15.1ms | ActiveRecord: 61.8ms)
+
+

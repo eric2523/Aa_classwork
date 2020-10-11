@@ -1,6 +1,8 @@
 import { connect } from 'react-redux'
 import { fetchBenches } from '../../actions/bench_actions'
 import Search from './search'
+import { updateBounds, updateFilter } from '../../actions/filter_actions'
+
 
 const mapStateToProps = ({entities: { benches }}) => {
  return ({
@@ -10,9 +12,12 @@ const mapStateToProps = ({entities: { benches }}) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    fetchBenches: () => {
-      return dispatch(fetchBenches());
+    updateFilter: (filters) => {
+      return dispatch(updateFilter(filters));
     },
+    updateBounds: (bounds) => {
+      return dispatch(updateBounds(bounds))
+    }
   };
 };
 
